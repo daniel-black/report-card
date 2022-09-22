@@ -130,7 +130,7 @@ const Home: NextPage = () => {
 
   const renderResults = () => {
     if (!results) {
-      return <h2>No results... Search for something</h2>;
+      return <h2 className='text-white text-2xl text-center'>No results... Search for something</h2>;
     }
     return(
       <div className='text-white space-y-4'>
